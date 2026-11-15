@@ -27,6 +27,8 @@
   button{font:inherit;font-size:13px;font-weight:500;color:var(--ink);background:rgba(255,255,255,.06);border:1px solid var(--line);padding:7px 11px;border-radius:9px;cursor:pointer;transition:background .15s,border-color .15s}
   button:hover{background:rgba(255,255,255,.12)}
   button:disabled{opacity:.4;cursor:default}
+  a.btn{font:inherit;font-size:13px;font-weight:500;color:var(--ink);background:rgba(255,255,255,.06);border:1px solid var(--line);padding:7px 11px;border-radius:9px;cursor:pointer;text-decoration:none;transition:background .15s,border-color .15s}
+  a.btn:hover{background:rgba(255,255,255,.12)}
   button.on{border-color:rgba(231,196,107,.55);background:rgba(231,196,107,.14)}
   button.warn{border-color:rgba(255,107,94,.6);background:rgba(255,107,94,.16)}
   svg.dg{width:1em;height:1em;vertical-align:-0.12em;margin:0 1px}
@@ -97,6 +99,7 @@
     <button id="btnUndo" disabled>Undo</button>
     <button id="btnFlip">Flip view</button>
     <button id="btnAuto" class="on" title="Turn the board toward the player whose move it is">Auto-turn</button>
+    <a id="btnRules" class="btn" href="https://github.com/TheRealCromell/Freefolk-Cyvasse/blob/main/freefolk-cyvasse-rules.txt" target="_blank" title="Open the rules in a separate window">Rules</a>
   </div>
 </header>
 
@@ -1875,6 +1878,11 @@ function evaluate(){
   }
 }
 
+// Rules: open in its own movable popup window; if popups are blocked, the link opens a new tab instead
+document.getElementById('btnRules').addEventListener('click', e => {
+  const w = window.open(e.currentTarget.href, 'cyvasseRules', 'popup=yes,width=760,height=880,left=80,top=60,resizable=yes,scrollbars=yes');
+  if (w){ e.preventDefault(); try { w.opener = null; w.focus(); } catch (err) {} }
+});
 function newGame(){
   if (handover){ handover = false; endHandover(); }
   for (const g of pieceMeshes.values()) scene.remove(g);
