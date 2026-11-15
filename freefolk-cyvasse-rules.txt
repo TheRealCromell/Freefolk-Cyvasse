@@ -1,0 +1,264 @@
+FREEFOLK - CYVASSE
+Rules of Play
+==========================================================================
+
+
+OVERVIEW
+--------------------------------------------------------------------------
+Two players, Ivory and Onyx, each build their own homeland from terrain
+squares, deploy an army of 16 pieces, and then fight to capture the
+enemy King.
+
+The board is an 8 x 8 frame. Ivory's homeland is rows 1-4 and Onyx's
+homeland is rows 5-8. A gold line marks the border between them.
+
+
+==========================================================================
+1. SETUP
+==========================================================================
+
+The game begins with an empty frame: no squares and no pieces.
+
+Step 1 - Placing squares
+  - Ivory places all 32 of its squares, then Onyx places its 32.
+  - Squares may only be placed in your own homeland.
+  - Choose a square type in the tray, then click an empty spot.
+  - To rearrange, click one of your placed squares to pick it up, then
+    click an empty spot to move it, or another of your squares to swap
+    the two. Click the same square again to put it down.
+  - When all 32 are placed, press "Done".
+
+Step 2 - Placing pieces
+  - Ivory places all 16 of its pieces, then Onyx places its 16.
+  - Pieces may only be placed in the first 3 rows of your homeland
+    (Ivory: rows 1-3, Onyx: rows 6-8). Your 4th homeland row starts empty.
+  - Choose a piece in the tray, then click an empty square.
+  - Placed pieces can be moved or swapped the same way as squares.
+  - When all 16 are placed, press "Done".
+
+Secrecy
+  - While a player is setting up, the other player's squares and pieces
+    are hidden.
+  - After each "Done" the board turns to face the next player and a
+    5-second countdown runs with everything hidden, so the other player
+    can look away.
+  - When both armies are placed, the whole board is revealed and Ivory
+    moves first.
+
+
+==========================================================================
+2. SQUARES (TERRAIN)
+==========================================================================
+
+Each player has 32 squares:
+
+  Square     Count   Looks like       Cost to enter
+  --------   -----   --------------   ------------------------------
+  Forest       12    Jadeite          2 movement
+  Mountain      6    Carnelian        All remaining movement
+  Stream       12    Lapis lazuli     1 movement
+  Fortress      2    Slate            1 movement
+
+Forest (green jadeite)
+  - Costs 2 movement to enter.
+  - A Heavy horse standing on a Forest cannot be captured (except by an
+    Assassin).
+
+Mountain (orange-red carnelian)
+  - Entering uses up all of a piece's remaining movement, so the move
+    ends there. A piece needs at least 1 movement left to enter.
+
+Stream (blue lapis lazuli)
+  - Ordinary ground. Costs 1 movement.
+
+Fortress (grey slate)
+  - Costs 1 movement to enter.
+  - A piece standing on an intact Fortress cannot be captured by a normal
+    attack. Instead the attack RUINS the Fortress:
+      * the defending piece stays on the board, on the ruined square;
+      * the attacking piece stops on the closest empty square along its
+        attack path (if it started right next to the Fortress, it stays
+        where it was);
+      * the turn ends.
+  - A ruined Fortress is marked with a brush-painted red X. It behaves
+    like an ordinary square and gives no more protection.
+  - Exceptions: a Trebuchet or Catapult ruins the Fortress AND captures
+    the piece. An Assassin ignores Fortresses.
+  - This protects whichever piece is standing on the Fortress, Ivory or
+    Onyx.
+
+Some pieces have their own terrain rules; see Section 4.
+
+
+==========================================================================
+3. GENERAL RULES OF PLAY
+==========================================================================
+
+Turns
+  - Players alternate. On your turn you move exactly one piece.
+
+Movement
+  - Pieces move in a straight line along a row or column (never
+    diagonally), unless their own rules say otherwise.
+  - Each piece has a number of movement points per turn (see the table
+    in Section 4). Each square entered costs movement according to its
+    terrain (Section 2).
+  - Pieces cannot pass through or jump over other pieces, unless their
+    own rules say otherwise.
+
+Control
+  - A piece controls the square it stands on.
+
+Capturing
+  - A piece may capture the first enemy piece in its path if it has
+    enough movement to enter that square.
+  - A piece may only capture an enemy of EQUAL OR LOWER power.
+  - Any piece may capture a King.
+  - If the attacker and defender have EQUAL power, both are captured.
+  - Some pieces have special capture rules; see Section 4.
+
+Hover over any piece or square to see its name, power, movement and
+the terrain it stands on.
+
+
+==========================================================================
+4. THE PIECES
+==========================================================================
+
+Each player has 16 pieces:
+
+  Piece         Count   Power   Movement
+  -----------   -----   -----   --------
+  King            1      10        1
+  Dragon          1       9        7
+  Elephant        2       8        6
+  Heavy horse     1       7        5
+  Trebuchet       1       6        5
+  Light horse     1       5        4
+  Catapult        1       4        4
+  Crossbow        2       3        3
+  Spear           2       2        2
+  Rabble          4       1        1  (2 when Advancing)
+
+
+KING  (Power 10, Movement 1)
+  - Cannot leave its homeland. It cannot capture a piece standing across
+    the border either.
+  - Can be captured by ANY piece.
+  - Capturing the enemy King wins the game. If two Kings capture each
+    other (equal power), both fall and the game is a draw.
+
+DRAGON  (Power 9, Movement 7)
+  - Ignores terrain: every square costs it 1 movement, including Forests
+    and Mountains.
+  - Can be captured by: the King, another Dragon (both are captured),
+    a Trebuchet, a Catapult, a Crossbow firing from high ground (see
+    Crossbow), or an Assassin.
+
+ELEPHANT  (Power 8, Movement 6)
+  - Climbing a Mountain costs it 2 movement instead of all remaining, so
+    it can keep moving afterwards.
+  - CHARGE: if the Elephant spends exactly all 6 movement crossing empty
+    squares, it may capture the piece on the very next square in that
+    line (equal or lower power, or a King). The Elephant ends on its
+    last square and the target is removed. To charge, click the piece
+    being captured. A charge into an intact Fortress ruins it instead.
+
+HEAVY HORSE  (Power 7, Movement 5)
+  - While standing on a Forest it cannot be captured, except by an
+    Assassin.
+  - Cannot capture Spears.
+
+TREBUCHET  (Power 6, Movement 5)
+  - Cannot enter Mountain squares.
+  - Capturing: it may jump over any number of pieces in its line,
+    friendly or enemy, and ignores terrain costs, as long as the target
+    is within 5 squares. It cannot capture a piece on a Mountain.
+  - Can capture a Dragon.
+  - Attacking a piece on an intact Fortress ruins the Fortress AND
+    captures the piece.
+  - Moving without capturing follows the normal rules.
+
+LIGHT HORSE  (Power 5, Movement 4)
+  - Mountains cost it only 1 movement.
+  - May make ONE 90-degree turn at any point during its move, and must
+    finish the move in the new direction (for example, 2 squares east
+    then 2 squares north). It cannot turn back the way it came.
+  - Cannot capture Spears.
+
+CATAPULT  (Power 4, Movement 4)
+  - Capturing: it may jump over any number of pieces in its line,
+    friendly or enemy, and ignores terrain costs, as long as the target
+    is within 4 squares. Unlike the Trebuchet, it can capture a piece on
+    a Mountain.
+  - Can capture a Dragon.
+  - Attacking a piece on an intact Fortress ruins the Fortress AND
+    captures the piece.
+  - Moving without capturing follows the normal rules.
+
+CROSSBOW  (Power 3, Movement 3)
+  - Can capture a Dragon if it STARTS its move on a Mountain or an
+    intact Fortress. It loses this ability on a ruined Fortress.
+
+SPEAR  (Power 2, Movement 2)
+  - Can capture a Light horse or a Heavy horse, despite their higher
+    power. A Heavy horse on a Forest is still protected.
+
+RABBLE  (Power 1, Movement 1)
+  - Forest: a Rabble can always enter a Forest, as if it had 2 movement.
+    The move ends there.
+  - ADVANCING: a Rabble has 2 movement this turn if
+      * another friendly Rabble is on an adjacent square (including
+        diagonally), or
+      * it starts its turn outside its own homeland.
+    A Rabble whose first step leaves its homeland may also take a second
+    step. An Advancing Rabble pays the normal 2 movement to enter a
+    Forest.
+  - ASSASSIN: when a Rabble reaches the far edge of the opponent's
+    homeland (row 8 for Ivory, row 1 for Onyx), it becomes an Assassin.
+    Its player immediately chooses one enemy piece standing anywhere in
+    their OWN homeland and captures it. The Rabble is then captured by
+    the opponent and the turn passes.
+      * The enemy King cannot be targeted unless it is that player's
+        last piece on the board. Then it can be targeted anywhere, in
+        either homeland.
+      * Assassins ignore Fortress and Forest protection.
+      * If there is no valid target, the Rabble is still lost.
+
+
+==========================================================================
+5. ENDING THE GAME
+==========================================================================
+
+King captured
+  - Capturing the enemy King wins: "King captured - Ivory wins" (or
+    Onyx wins).
+
+Both kings fell
+  - If both Kings are captured at the same time: "Both kings fell -
+    Draw".
+
+The Gods have won
+  - If a player is left with only their King, a counter appears in the
+    status bar. If that lone King survives five of its own turns, the
+    game ends: "The Gods have won - Draw".
+
+"Death in two"
+  - This warning appears in the status bar, and the King's square glows
+    red, when the player to move has a King the opponent could capture
+    on their next turn.
+
+
+==========================================================================
+6. CONTROLS
+==========================================================================
+
+  - Click a piece to select it. Bright green dots show where it can
+    move; bright red-orange rings mark pieces it can capture. Click a
+    marked square to move.
+  - Drag to orbit the camera. Scroll or pinch to zoom.
+  - New game: start over.
+  - Undo: take back the last action, including setup actions. It is
+    blocked during the handover countdown.
+  - Flip view: turn the board around.
+  - Auto-turn: turn the board toward the player whose move it is.
