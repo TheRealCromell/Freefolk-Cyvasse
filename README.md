@@ -1,4 +1,4 @@
-# Freefolk-Cyvasse
+# [Freefolk-Cyvasse](https://therealcromell.github.io/Freefolk-Cyvasse/)
 Inspired by the game George R R Martin described in his book series A song of Ice and Fire.
 I made a physical version of this to play at home. I used Claude AI to make it come to life.
 
